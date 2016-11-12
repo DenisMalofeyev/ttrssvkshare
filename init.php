@@ -22,7 +22,7 @@ class VK extends Plugin {
 	}
 
 	function hook_article_button($line) {
-		return "<img src=\"plugins/vk/vk.png\"
+		return "<img src=\"plugins/ttrssvkshare/vk.png\"
 			class='tagsPic' style=\"cursor : pointer\"
 			onclick=\"shareArticleToVK(".$line["id"].")\"
 			title='".__('Share on VK')."'>";
