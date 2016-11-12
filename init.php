@@ -1,5 +1,5 @@
 <?php
-class VK extends Plugin {
+class ttrssvkshare extends Plugin {
 	private $host;
 
 	function about() {
